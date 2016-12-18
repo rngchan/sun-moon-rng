@@ -17,8 +17,11 @@ ratios = {"GENDERLESS": 255, "FEMALE": 254, "MALE": 0, "1-1": 126,
 
 # Clean input file line from excess characters
 def parseInput(inp):
+    res = inp
     badcharacters = [' ', '\n', '\r']
-    return inp.translate(None, "".join(badcharacters))
+    for ch in badcharacters:
+        res = "".join(res.split(ch))
+    return res
 
 
 # Read config file parameters
@@ -172,7 +175,6 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck):
     rolls += 1
     if parentA.item == "EVERSTONE" and parentB.item == "EVERSTONE":
         nature = parentB.nature if tinymt.nextStateAsInt(2) else parentA.nature
-        print tinymt.getState()
         rolls += 1
     elif parentA.item == "EVERSTONE":
         nature = parentA.nature
@@ -254,7 +256,7 @@ def main():
     # Read parameters, check for errors
     params, msg = readConfigFile()
     if msg is not None:
-        print "ERROR:", msg
+        print("ERROR:", msg)
         return
 
     results = []
@@ -279,7 +281,7 @@ def main():
         tmt.nextState()
         tries += 1
 
-    print "Found {} results, writing them to results.txt".format(len(results))
+    print("Found {} results, writing them to results.txt".format(len(results)))
     with open("results.txt", 'w') as res:
         for frame, egg in results:
             # Print egg info
@@ -313,4 +315,4 @@ def main():
 if __name__ == "__main__":
 
     main()
-    print "DONE!"
+    print("DONE!")
