@@ -12,6 +12,8 @@ By figuring out your current RNG seed in the game, it's possible to predict the 
 
 It's not cheating if we are using nothing but the game itself to determine what will come out of eggs. No hacking of your system/game are required, all you need is your copy of the game. If you still think it's cheating, you can stop reading now, I guess.
 
+You can check out a sample of what you get by running the script if you look at file `results_sample.txt`. It lists the first 40 eggs that can be obtained by advancing the RNG seed one by one, detailing IVs, ability, etc.
+
 ## How/Where do I start?
 
 Here is a checklist of things you will need to make full use of this trick:
@@ -73,7 +75,7 @@ python myscript.py
 
 ## Configuring the RNG script
 
-Now that you have your current seed, it's time to configure the script. It's not a complicated process at all, just make a file named `config.txt` with the set of parameters that you want your eggs to have. A sample, `config_sample.txt` is provided, along with a description of each field, which can be found in the file `config_explanation.txt`.
+Now that you have your current seed, it's time to configure the script. It's not a complicated process at all, just make a file named `config.txt` with the set of parameters that you want your eggs to have. A sample, `config_sample.txt` is provided, along with a description of each field, which can be found in the file `config_explanation.txt`. If you want to check out what the results for the sample config are, look at file `results_sample.txt`.
 
 The config file has 5 parts to it, detailed below:
 
@@ -118,7 +120,7 @@ The script will read your configuration file and produce a results file (`result
 * The seed you will be in once you accept the egg
 * The sequence of actions necessary from your current seed to get to the seed you must be at to hatch the egg
 
-Now that you know how many eggs you need to accept / reject to get to your target, if you follow that sequence in the game, you WILL get the results you were expecting.
+A sample can be found in the file `results_sample.txt`. Now that you know how many eggs you need to accept / reject to get to your target, if you follow that sequence in the game, you WILL get the results you were expecting.
 
 Once you accept the egg that contains the desired outcome, IMMEDIATELY remove the pokemon from the Nursery to prevent more eggs from being generated, and note down the seed you're curently at. (You can tell which it is by looking at the results.txt file)
 

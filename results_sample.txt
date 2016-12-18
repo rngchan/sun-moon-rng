@@ -1,0 +1,480 @@
+IV Spread: (M, 31) / (F, 10) / (F, 25) / (M, 31) / (M, 31) / (R, 14)
+Ability: 1
+Nature: NAUGHTY
+Gender: M
+Ball Inherited: F
+PID: 2abb4f32
+Seed to hatch: 8a80987 3cfe1de3 5740a11a 63b07a71
+Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
+Sequence of actions to hatch:
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (F, 25) / (M, 31) / (F, 10) / (R, 14)
+Ability: 2
+Nature: IMPISH
+Gender: M
+Ball Inherited: F
+PID: 2abb4f32
+Seed to hatch: 14ef46dc a5083b98 3cfe1de3 5740a11a
+Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
+Sequence of actions to hatch:
+>Reject egg
+>Accept egg
+
+IV Spread: (R, 6) / (F, 10) / (F, 25) / (F, 20) / (M, 31) / (M, 31)
+Ability: 2
+Nature: QUIRKY
+Gender: M
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: 4d436c11 a21332bc 2a782a76 3cfe1de3
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 2 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (F, 25) / (M, 31) / (R, 4) / (M, 31)
+Ability: 2
+Nature: MILD
+Gender: M
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: b65dd562 aaea877b a21332bc 2a782a76
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 3 eggs
+>Accept egg
+
+IV Spread: (R, 6) / (F, 10) / (M, 31) / (F, 20) / (M, 31) / (M, 31)
+Ability: 1
+Nature: JOLLY
+Gender: M
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: 8af19f00 a1fea0d3 aaea877b a21332bc
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 4 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (M, 31) / (F, 25) / (M, 31) / (R, 4) / (M, 31)
+Ability: 1
+Nature: NAIVE
+Gender: M
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: b4806fbc 7ab7cf3c a1fea0d3 aaea877b
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 5 eggs
+>Accept egg
+
+IV Spread: (R, 6) / (F, 10) / (M, 31) / (M, 31) / (M, 31) / (M, 31)
+Ability: 2
+Nature: BOLD
+Gender: F
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: fc2461de 836341bc 7ab7cf3c a1fea0d3
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 6 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (M, 31) / (M, 31) / (M, 31) / (R, 4) / (M, 31)
+Ability: 2
+Nature: LONELY
+Gender: F
+Ball Inherited: F
+PID: 2b649fbf
+Seed to hatch: ea4823c4 48f162f5 836341bc 7ab7cf3c
+Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
+Sequence of actions to hatch:
+>Reject 7 eggs
+>Accept egg
+
+IV Spread: (R, 14) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (M, 31)
+Ability: 2
+Nature: QUIRKY
+Gender: F
+Ball Inherited: F
+PID: ff5a3c5f
+Seed to hatch: 4c0206b9 270c2f80 c781731b 836341bc
+Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
+Sequence of actions to hatch:
+>Reject 8 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (R, 29)
+Ability: 1
+Nature: DOCILE
+Gender: F
+Ball Inherited: F
+PID: ff5a3c5f
+Seed to hatch: 4e31228c e0b81769 270c2f80 c781731b
+Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
+Sequence of actions to hatch:
+>Reject 9 eggs
+>Accept egg
+
+IV Spread: (R, 14) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (M, 31)
+Ability: 1
+Nature: LAX
+Gender: M
+Ball Inherited: F
+PID: ff5a3c5f
+Seed to hatch: e9766fdc 59e0ac16 e0b81769 270c2f80
+Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
+Sequence of actions to hatch:
+>Reject 10 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (R, 18)
+Ability: 2
+Nature: TIMID
+Gender: F
+Ball Inherited: F
+PID: 7d4e911b
+Seed to hatch: 3f30e533 9d118e1e d690bdf8 e0b81769
+Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
+Sequence of actions to hatch:
+>Reject 11 eggs
+>Accept egg
+
+IV Spread: (R, 14) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
+Ability: 1
+Nature: CAREFUL
+Gender: M
+Ball Inherited: F
+PID: ff5a3c5f
+Seed to hatch: 5de3fa3b edb7e8e 12619ff0 d690bdf8
+Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
+Sequence of actions to hatch:
+>Reject 12 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (R, 18)
+Ability: 2
+Nature: JOLLY
+Gender: F
+Ball Inherited: F
+PID: 7d4e911b
+Seed to hatch: ad6ce2ac 6df4558a edb7e8e 12619ff0
+Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
+Sequence of actions to hatch:
+>Reject 13 eggs
+>Accept egg
+
+IV Spread: (R, 4) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
+Ability: 2
+Nature: SASSY
+Gender: M
+Ball Inherited: F
+PID: d17c277d
+Seed to hatch: 68094ee6 b6e8451c 6df4558a edb7e8e
+Seed after hatching: 6c6e2505 365cdd71 a3cc8f04 10ea5741
+Sequence of actions to hatch:
+>Reject 14 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (R, 4) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
+Ability: 2
+Nature: GENTLE
+Gender: F
+Ball Inherited: F
+PID: 8ce6f747
+Seed to hatch: 22445bbd 935fb937 399854f2 6df4558a
+Seed after hatching: 5a8664fb d5035add cefca3fb ba9832d
+Sequence of actions to hatch:
+>Reject 15 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (R, 29) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
+Ability: 1
+Nature: SERIOUS
+Gender: F
+Ball Inherited: F
+PID: 7d4e911b
+Seed to hatch: 7a32beb2 83ae00d1 935fb937 399854f2
+Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
+Sequence of actions to hatch:
+>Reject 16 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (R, 21) / (M, 31) / (F, 20) / (F, 10) / (F, 10)
+Ability: 1
+Nature: BOLD
+Gender: M
+Ball Inherited: F
+PID: 880f5c83
+Seed to hatch: 3c91d6d7 c0999423 cde113f 935fb937
+Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
+Sequence of actions to hatch:
+>Reject 17 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (M, 31)
+Ability: 1
+Nature: LONELY
+Gender: M
+Ball Inherited: F
+PID: e34bed77
+Seed to hatch: 43f179c1 58b7bf62 4fe985cd cde113f
+Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Sequence of actions to hatch:
+>Reject 18 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (R, 21) / (F, 25) / (F, 20) / (F, 10) / (F, 10)
+Ability: 2
+Nature: BRAVE
+Gender: F
+Ball Inherited: F
+PID: 880f5c83
+Seed to hatch: 4e89b991 f61ec7af d7c7ae8c 4fe985cd
+Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
+Sequence of actions to hatch:
+>Reject 19 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (F, 10)
+Ability: 2
+Nature: ADAMANT
+Gender: M
+Ball Inherited: F
+PID: e34bed77
+Seed to hatch: db9c506b 3f68662d 796ed641 d7c7ae8c
+Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Sequence of actions to hatch:
+>Reject 20 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (F, 25) / (F, 20) / (F, 10) / (R, 27)
+Ability: 2
+Nature: QUIRKY
+Gender: F
+Ball Inherited: F
+PID: e34bed77
+Seed to hatch: 84115b7e 772edb20 3f68662d 796ed641
+Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Sequence of actions to hatch:
+>Reject 21 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (F, 10)
+Ability: 2
+Nature: CAREFUL
+Gender: M
+Ball Inherited: F
+PID: e34bed77
+Seed to hatch: 95614b15 2a2c16cb f85ecace 3f68662d
+Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Sequence of actions to hatch:
+>Reject 22 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (R, 27)
+Ability: 2
+Nature: IMPISH
+Gender: M
+Ball Inherited: F
+PID: f950da1b
+Seed to hatch: e8fe20e7 33d4ad67 a55c0725 f85ecace
+Seed after hatching: ed0a442c a4512032 c1591379 23136d42
+Sequence of actions to hatch:
+>Reject 23 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 2) / (F, 10) / (F, 10)
+Ability: 2
+Nature: RASH
+Gender: M
+Ball Inherited: F
+PID: f950da1b
+Seed to hatch: affb9100 dd3ea194 33d4ad67 a55c0725
+Seed after hatching: ed0a442c a4512032 c1591379 23136d42
+Sequence of actions to hatch:
+>Reject 24 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (M, 31) / (R, 6) / (F, 20) / (F, 10) / (F, 10)
+Ability: 2
+Nature: GENTLE
+Gender: M
+Ball Inherited: F
+PID: e34bed77
+Seed to hatch: a4dc45fa 2dcdf47a dd3ea194 33d4ad67
+Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Sequence of actions to hatch:
+>Reject 25 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 27) / (F, 10) / (F, 10)
+Ability: 2
+Nature: SASSY
+Gender: F
+Ball Inherited: F
+PID: cebdfa4e
+Seed to hatch: b3da6e9c 2cd2799b 2dcdf47a dd3ea194
+Seed after hatching: 3350ad2 ae6d84e3 bc459904 2b2131dc
+Sequence of actions to hatch:
+>Reject 26 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (M, 31) / (R, 9) / (M, 31) / (F, 10) / (F, 10)
+Ability: 2
+Nature: GENTLE
+Gender: M
+Ball Inherited: F
+PID: dd308737
+Seed to hatch: e542d4d 48aebf80 a3a26875 2dcdf47a
+Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
+Sequence of actions to hatch:
+>Reject 27 eggs
+>Accept egg
+
+IV Spread: (R, 22) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
+Ability: 2
+Nature: IMPISH
+Gender: F
+Ball Inherited: F
+PID: dd308737
+Seed to hatch: 423d5f7a be3e8c91 48aebf80 a3a26875
+Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
+Sequence of actions to hatch:
+>Reject 28 eggs
+>Accept egg
+
+IV Spread: (F, 25) / (M, 31) / (R, 9) / (M, 31) / (F, 10) / (F, 10)
+Ability: 1
+Nature: NAIVE
+Gender: M
+Ball Inherited: F
+PID: dd308737
+Seed to hatch: 1c751d6b 575bbeb3 314e9d7f 48aebf80
+Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
+Sequence of actions to hatch:
+>Reject 29 eggs
+>Accept egg
+
+IV Spread: (R, 22) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
+Ability: 2
+Nature: BRAVE
+Gender: M
+Ball Inherited: F
+PID: dd308737
+Seed to hatch: 6183370a 7f108cd4 575bbeb3 314e9d7f
+Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
+Sequence of actions to hatch:
+>Reject 30 eggs
+>Accept egg
+
+IV Spread: (R, 23) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
+Ability: 2
+Nature: QUIET
+Gender: F
+Ball Inherited: F
+PID: bdd946f
+Seed to hatch: 7a4c5da7 e6009237 f0609d3a 575bbeb3
+Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
+Sequence of actions to hatch:
+>Reject 31 eggs
+>Accept egg
+
+IV Spread: (R, 7) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
+Ability: 2
+Nature: LAX
+Gender: M
+Ball Inherited: F
+PID: 7c76e043
+Seed to hatch: 8426a1b6 59ca0ac2 e6009237 f0609d3a
+Seed after hatching: cf059ad 32246109 3ae5db01 f1bd2312
+Sequence of actions to hatch:
+>Reject 32 eggs
+>Accept egg
+
+IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
+Ability: 2
+Nature: ADAMANT
+Gender: M
+Ball Inherited: F
+PID: bdd946f
+Seed to hatch: 96cbff3c 7f02fe51 59ca0ac2 e6009237
+Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
+Sequence of actions to hatch:
+>Reject 33 eggs
+>Accept egg
+
+IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
+Ability: 1
+Nature: LAX
+Gender: M
+Ball Inherited: F
+PID: bdd946f
+Seed to hatch: 1cf6ab4e 1bf593ec 7f02fe51 59ca0ac2
+Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
+Sequence of actions to hatch:
+>Reject 34 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (R, 27) / (F, 20) / (M, 31) / (F, 10)
+Ability: 2
+Nature: LONELY
+Gender: M
+Ball Inherited: F
+PID: 289a00ea
+Seed to hatch: 55ca5768 6e1a0981 1bf593ec 7f02fe51
+Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
+Sequence of actions to hatch:
+>Reject 35 eggs
+>Accept egg
+
+IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
+Ability: 2
+Nature: IMPISH
+Gender: M
+Ball Inherited: F
+PID: bdd946f
+Seed to hatch: 6018d098 7c75cc44 6e1a0981 1bf593ec
+Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
+Sequence of actions to hatch:
+>Reject 36 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (R, 27) / (F, 20) / (M, 31) / (F, 10)
+Ability: 2
+Nature: LONELY
+Gender: M
+Ball Inherited: F
+PID: 289a00ea
+Seed to hatch: 4aba42af fdcb964 f305ddaa 6e1a0981
+Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
+Sequence of actions to hatch:
+>Accept 2 eggs
+
+IV Spread: (R, 28) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (F, 10)
+Ability: 1
+Nature: HARDY
+Gender: M
+Ball Inherited: F
+PID: 2d6cc235
+Seed to hatch: d8a2d429 c06decce 80aca88a f305ddaa
+Seed after hatching: c00e9708 30f7f1e9 5e87dc45 7637fcc5
+Sequence of actions to hatch:
+>Accept egg
+>Reject egg
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (R, 23) / (F, 20) / (M, 31) / (F, 10)
+Ability: 1
+Nature: BASHFUL
+Gender: M
+Ball Inherited: F
+PID: e00bba5d
+Seed to hatch: e0be140f 5065692d 4f1dfd20 80aca88a
+Seed after hatching: 65940dde e0cc5e9b 8222ad2a d20c50a4
+Sequence of actions to hatch:
+>Accept egg
+>Reject 2 eggs
+>Accept egg
+
