@@ -268,7 +268,7 @@ def main():
         parentA, parentB = parentB, parentA
 
     # Repeat until enough results are found, timeout at 10000
-    while len(results) < params["nresults"] and tries < 1000:
+    while len(results) < params["nresults"] and tries < 10000:
         tmtState = tmt.getState()
         egg = makeEgg(tmt, parentA, parentB, params["ratio"], params["charm"],
                       params["masuda"], params["ballcheck"])
