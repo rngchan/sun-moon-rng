@@ -1,0 +1,61 @@
+======================
+MALE/GENDERLESS PARENT
+======================
+HP IV: 31
+ATK IV: 31
+DEF IV: 31
+SPATK IV: 31
+SPDEF IV: 31
+SPD IV: 31
+HELD ITEM: Destiny Knot
+ABILITY SLOT: HA
+NATURE: Jolly
+IS DITTO: Y
+
+======================
+     FEMALE PARENT    
+======================
+HP IV: 25
+ATK IV: 10
+DEF IV: 25
+SPATK IV: 20
+SPDEF IV: 10
+SPD IV: 10
+HELD ITEM: None
+ABILITY SLOT: 2
+NATURE: Adamant
+IS DITTO: N
+
+======================
+     CHILD TRAITS     
+======================
+HP IV INTERVAL: [0, 31]
+ATK IV INTERVAL: [0, 31]
+DEF IV INTERVAL: [0, 31]
+SPATK IV INTERVAL: [0, 31]
+SPDEF IV INTERVAL: [0, 31]
+SPD IV INTERVAL: [0, 31]
+ABILITY SLOT: Anything
+NATURE: Anything
+GENDER: Anything
+BALL: Anything
+HIDDEN POWER TYPE: Anything
+SHINY: Anything
+
+======================
+    RNG PARAMETERS    
+======================
+STATUS 3: 0x08A80987
+STATUS 2: 0x3CFE1DE3
+STATUS 1: 0x5740A11A
+STATUS 0: 0x63B07A71
+TSV: 0
+
+======================
+     OTHER OPTIONS    
+======================
+GENDER RATIO: 1-1
+MASUDA METHOD: Y
+SHINY CHARM: Y
+SAME SPECIES: Y
+SHOW THIS MANY RESULTS: 20
