@@ -1,3 +1,4 @@
 *.pyc
 config.txt
 results.txt
+seed.txt
