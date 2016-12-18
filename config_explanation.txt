@@ -1,0 +1,61 @@
+======================
+MALE/GENDERLESS PARENT
+======================
+HP IV: [Any number from 0 to 31]
+ATK IV: [Any number from 0 to 31]
+DEF IV: [Any number from 0 to 31]
+SPATK IV: [Any number from 0 to 31]
+SPDEF IV: [Any number from 0 to 31]
+SPD IV: [Any number from 0 to 31]
+HELD ITEM: None/Everstone/Destiny Knot
+ABILITY SLOT: 1/2/HA
+NATURE: Adamant/Modest/...
+IS DITTO: Y/N
+
+======================
+     FEMALE PARENT    
+======================
+HP IV: [Any number from 0 to 31]
+ATK IV: [Any number from 0 to 31]
+DEF IV: [Any number from 0 to 31]
+SPATK IV: [Any number from 0 to 31]
+SPDEF IV: [Any number from 0 to 31]
+SPD IV: [Any number from 0 to 31]
+HELD ITEM: None/Everstone/Destiny Knot
+ABILITY SLOT: 1/2/HA
+NATURE: Adamant/Modest/...
+IS DITTO: Y/N
+
+======================
+     CHILD TRAITS     
+======================
+HP IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+ATK IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+DEF IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+SPATK IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+SPDEF IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+SPD IV INTERVAL: [Two numbers from 0 to 31 on this format: [0, 31] ]
+ABILITY SLOT: Anything/1/2/HA [Anything = Don't Care]
+NATURE: Anything/Adamant/Modest/... [Anything = Don't Care]
+GENDER: Anything/M/F/Genderless [Anything = Don't Care]
+BALL: Anything/M/F [Anything = Don't Care]
+HIDDEN POWER TYPE: Anything/Normal/Fire/Water/... [Anything = Don't Care]
+SHINY: Anything/Y/N [Anything = Don't Care]
+
+======================
+    RNG PARAMETERS    
+======================
+STATUS 3: [Sequence of 8 hex digits]
+STATUS 2: [Sequence of 8 hex digits]
+STATUS 1: [Sequence of 8 hex digits]
+STATUS 0: [Sequence of 8 hex digits]
+TSV: [Sequence of 8 hex digits]
+
+======================
+     OTHER OPTIONS    
+======================
+GENDER RATIO: Genderless/Male/Female/1-1/1-3/3-1/1-7/7-1 [Male-Female]
+MASUDA METHOD: Y/N
+SHINY CHARM: Y/N
+SAME SPECIES: Y/N
+SHOW THIS MANY RESULTS: [How many results that match your query you want]
