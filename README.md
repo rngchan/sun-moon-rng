@@ -1,4 +1,4 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.8
+# Pokemon Sun/Moon Egg RNG Tool - v0.9
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
@@ -92,9 +92,7 @@ The same as the previous section, except it determines the information for the f
 
 ### Child Traits Section
 
-In this section, you determine what traits you want the egg pokemon to have. Be it a specific range of IVs, a specific ability, or anything else you might want. Mind the specific format for IV range, since it MUST follow the `[x, y]` format, which means any IV greater than or equal to x OR lesser than or equal to y will be accepted. A value of "Anything" for other fields means any ability/nature/etc. is fine and should be considered a valid egg. You can specify here if you want the child to be shiny or not, too.
-
-**THERE IS CURRENTLY NO SUPPORT FOR FILTERING HIDDEN POWER TYPE. I'M WORKING ON IT.**
+In this section, you determine what traits you want the egg pokemon to have. Be it a specific range of IVs, a specific ability, or anything else you might want. Mind the specific format for IV range, since it MUST follow the `[x, y]` format, which means any IV greater than or equal to x OR lesser than or equal to y will be accepted. A value of "Anything" for other fields means any ability/nature/etc. is fine and should be considered a valid egg. You can specify here if you want the child to be shiny or not, too, as well as what hidden power type you want.
 
 ### RNG Parameters Section
 
@@ -134,10 +132,7 @@ Nothing. This offers zero risk to your save file or anything else in the game, t
 
 ## What is missing? How can I help?
 
-The following features are still missing from this project, and I am working on them currently. If you would like to contribute, feel free to fork this repository and submit a pull request. If you want to contribute in other ways, like discussing features or issues, please use the issues tab on github.
-
-**Missing features that are being worked on:**
-* Hidden Power filtering
+If you would like to contribute, feel free to fork this repository and submit a pull request. If you want to contribute in other ways, like discussing features or issues, please use the issues tab on github.
 
 **Missing features that might be worked on in the future:**
 * Making a webpage to substitute the script so there's no overhead in installing python and editing config files manually
