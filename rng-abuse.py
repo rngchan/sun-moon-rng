@@ -14,6 +14,11 @@ natures = ["HARDY", "LONELY", "BRAVE", "ADAMANT", "NAUGHTY", "BOLD", "DOCILE",
 ratios = {"GENDERLESS": 255, "FEMALE": 254, "MALE": 0, "1-1": 126,
           "1-3": 189, "3-1": 63, "1-7": 220, "7-1": 32}
 
+# Hidden power types
+types = ["FIGHTING", "FLYING", "POISON", "GROUND", "ROCK", "BUG", "GHOST",
+         "STEEL", "FIRE", "WATER", "GRASS", "ELECTRIC", "PSYCHIC", "ICE",
+         "DRAGON", "DARK"]
+
 
 # Clean input file line from excess characters
 def parseInput(inp):
@@ -29,6 +34,15 @@ def get_esv(pid):
     pid_high = (pid >> 16)
     pid_low = (pid & 0xFFFF)
     return ((pid_high ^ pid_low) >> 4)
+
+
+# Determine hidden power type
+def get_hpower(ivs):
+    bits = [str(iv[1] % 2) for iv in ivs][::-1]
+    # Swap speed with spatk and spdef
+    bits[0], bits[1], bits[2] = bits[1], bits[2], bits[0]
+    hpower = int(int("".join(bits), 2) * 15 / 63)
+    return types[hpower]
 
 
 # Read config file parameters
@@ -113,14 +127,16 @@ def readConfigFile():
         if ball not in ["ANYTHING", "M", "F"]:
             return None, "Invalid ball for child"
         ball = None if ball == "ANYTHING" else ball
-        # No support for hidden power yet
-        hpower = None
+        # Hidden power should be a valid type
+        hpower = parseInput(config[skip+10].split(':')[1]).upper()
+        if hpower not in ["ANYTHING"]+types:
+            return None, "Invalid hidden power type"
+        hpower = None if hpower == "ANYTHING" else hpower
         # Shiny should be one of Anything, Y, N
         shiny = parseInput(config[skip+11].split(':')[1]).upper()
         if shiny not in ["ANYTHING", "Y", "N"]:
             return None, "Invalid shiny parameter for child"
         shiny = True if shiny == "Y" else False if shiny == "N" else None
-        params["shiny"] = shiny
         # Store child info
         params["child"] = Child(ivs, ability, nature, gender, ball, hpower,
                                 shiny)
@@ -238,6 +254,7 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
             ivs.append((parentA.gender[0], parentA.ivs[i]))
         elif inherit_ivs[i] == "B":
             ivs.append((parentB.gender[0], parentB.ivs[i]))
+    hpower = get_hpower(ivs)
 
     # Roll random PID
     pid = tinymt.nextStateAsPID()
@@ -274,7 +291,7 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
 
     # Build egg and return
     return Egg(seeds, ivs, ability, nature, gender, pid, ball, rolls, esv,
-               shiny)
+               shiny, hpower)
 
 
 def main():
