@@ -20,7 +20,7 @@ if __name__ == "__main__":
         seed = [parseInput(s) for s in seedfile[0].split(' ')]
         seed = [int(s, 16) for s in seed]
     tmt = TinyMT(seed)
-    for i in range(127):
+    for i in range(124):
         tmt.nextState()
     with open("seed.txt", 'w') as seedfile:
         seedfile.write(oldseed)
