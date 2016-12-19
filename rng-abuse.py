@@ -24,6 +24,13 @@ def parseInput(inp):
     return res
 
 
+# Checks whether a PID is shiny based on TSV
+def check_shiny(tsv, pid):
+    pid_high = (pid >> 16)
+    pid_low = (pid & 0xFFFF)
+    return ((pid_high ^ pid_low) >> 4) == tsv
+
+
 # Read config file parameters
 def readConfigFile():
     with open("config.txt") as cfgfile:
@@ -106,9 +113,14 @@ def readConfigFile():
         if ball not in ["ANYTHING", "M", "F"]:
             return None, "Invalid ball for child"
         ball = None if ball == "ANYTHING" else ball
-        # No support for hidden power of shinies yet
+        # No support for hidden power yet
         hpower = None
-        shiny = None
+        # Shiny should be one of Anything, Y, N
+        shiny = parseInput(config[skip+11].split(':')[1]).upper()
+        if shiny not in ["ANYTHING", "Y", "N"]:
+            return None, "Invalid shiny parameter for child"
+        shiny = True if shiny == "Y" else False if shiny == "N" else None
+        params["shiny"] = shiny
         # Store child info
         params["child"] = Child(ivs, ability, nature, gender, ball, hpower,
                                 shiny)
@@ -122,8 +134,14 @@ def readConfigFile():
             except ValueError:
                 return None, "Invalid seed status"
             params["seed"].append(status)
-        # TSV support is currently not implemented
-        params["tsv"] = None
+        # Read TSV as integer between 0 and 4096
+        try:
+            tsv = int(config[skip+4].split(':')[1])
+        except ValueError:
+            return None, "Invalid TSV"
+        if tsv < 0 or tsv > 4096:
+            return None, "TSV must be between 0 and 4096"
+        params["tsv"] = tsv
 
         skip = 56
         # Read gender ratio info
@@ -155,7 +173,7 @@ def readConfigFile():
         return params, None
 
 
-def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck):
+def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
     seed_before = tinymt.getState()
     rolls = 0  # Keep track of rolls number
 
@@ -223,6 +241,7 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck):
 
     # Roll random PID
     pid = tinymt.nextStateAsPID()
+    shiny = check_shiny(tsv, pid)
     rolls += 1
     rerolls = 0
     rerolls += 2 if charm else 0
@@ -231,6 +250,9 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck):
     for i in range(rerolls):
         pid = tinymt.nextStateAsPID()
         rolls += 1
+        shiny = check_shiny(tsv, pid)
+        if shiny:
+            break
 
     # Roll for ball check if necessary
     if parentB.ditto:
@@ -249,14 +271,14 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck):
     seeds = [seed_before, seed_after]
 
     # Build egg and return
-    return Egg(seeds, ivs, ability, nature, gender, pid, ball, rolls)
+    return Egg(seeds, ivs, ability, nature, gender, pid, ball, rolls, shiny)
 
 
 def main():
     # Read parameters, check for errors
     params, msg = readConfigFile()
     if msg is not None:
-        print("ERROR:", msg)
+        print("ERROR: {}".format(msg))
         return
 
     results = []
@@ -273,7 +295,7 @@ def main():
     while len(results) < params["nresults"] and tries < 10000:
         tmtState = tmt.getState()
         egg = makeEgg(tmt, parentA, parentB, params["ratio"], params["charm"],
-                      params["masuda"], params["ballcheck"])
+                      params["masuda"], params["ballcheck"], params["tsv"])
         rolls.append(egg.rolls)
         if params["child"].matches(egg):
             results.append((tries, egg))
