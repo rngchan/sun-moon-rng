@@ -1,4 +1,4 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.9.1
+# Pokemon Sun/Moon Egg RNG Tool - v0.9.2
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
@@ -63,7 +63,7 @@ After that, head over to [this](http://blog.livedoor.jp/x_x_saki_x_x/RNG/SMBreed
 
 `89ca1ff8 8f0d53fa 7e68dffd 061d7401`
 
-This represents your RNG seed back when you started this whole Magikarp breeding process thing. But since you refused a total of 127 eggs to calculate your seed, this means that your current seed is 127 states ahead of the one you found. Do not fret, this is where the first script in this project will aid you.
+This represents your RNG seed back when you started this whole Magikarp breeding process thing. But since you refused a total of 127 eggs to calculate your seed, and we are using the Everstone to calculate it, this means that your current seed is 124 states ahead of the one you found (rejecting 127 eggs advances your seed 127 times, and the Everstone is the 3rd RNG roll, so your current seed will be 3 behind that last one). Do not fret, this is where the first script in this project will aid you.
 
 In the same directory as the scripts, create a file named `seed.txt` and copy/paste the seed you got from the tool above in it, and then run the script `update_seed.py`. The script will update the file you wrote with your actual current seed.
 
@@ -72,6 +72,8 @@ In the same directory as the scripts, create a file named `seed.txt` and copy/pa
 ```bash
 python myscript.py
 ```
+
+**_Side note / Disclaimer:_** I'm still testing if advancing 124 frames is the real way to go. It might be more, I'm still trying to pinpoint it. If it is more, then there will be a small mismatch between your actual seed and the one in the file - it will be a bit behind. What this changes is, you might have to reject a few eggs to line them up properly. If you're not getting your desired egg, try rejecting an egg before starting the process of breeding to your target. Example, the program tells you to accept 2 eggs to get your desired outcome. If that fails, try rejecting 1 egg and then accepting those 2 eggs. Chances are you won't have to do this, but until I'm certain, this disclaimer shall stay here.
 
 ## Configuring the RNG script
 
