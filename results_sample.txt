@@ -3,7 +3,10 @@ Ability: 1
 Nature: NAUGHTY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: PSYCHIC
 PID: 2abb4f32
+ESV: 1624
+Shiny: No
 Seed to hatch: 8a80987 3cfe1de3 5740a11a 63b07a71
 Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
 Sequence of actions to hatch:
@@ -14,7 +17,10 @@ Ability: 2
 Nature: IMPISH
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: 2abb4f32
+ESV: 1624
+Shiny: No
 Seed to hatch: 14ef46dc a5083b98 3cfe1de3 5740a11a
 Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
 Sequence of actions to hatch:
@@ -26,7 +32,10 @@ Ability: 2
 Nature: QUIRKY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: GRASS
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: 4d436c11 a21332bc 2a782a76 3cfe1de3
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -38,7 +47,10 @@ Ability: 2
 Nature: MILD
 Gender: M
 Ball Inherited: F
+Hidden Power Type: STEEL
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: b65dd562 aaea877b a21332bc 2a782a76
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -50,7 +62,10 @@ Ability: 1
 Nature: JOLLY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: GRASS
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: 8af19f00 a1fea0d3 aaea877b a21332bc
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -62,7 +77,10 @@ Ability: 1
 Nature: NAIVE
 Gender: M
 Ball Inherited: F
+Hidden Power Type: STEEL
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: b4806fbc 7ab7cf3c a1fea0d3 aaea877b
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -74,7 +92,10 @@ Ability: 2
 Nature: BOLD
 Gender: F
 Ball Inherited: F
+Hidden Power Type: DRAGON
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: fc2461de 836341bc 7ab7cf3c a1fea0d3
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -86,7 +107,10 @@ Ability: 2
 Nature: LONELY
 Gender: F
 Ball Inherited: F
+Hidden Power Type: STEEL
 PID: 2b649fbf
+ESV: 2893
+Shiny: No
 Seed to hatch: ea4823c4 48f162f5 836341bc 7ab7cf3c
 Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
 Sequence of actions to hatch:
@@ -98,7 +122,10 @@ Ability: 2
 Nature: QUIRKY
 Gender: F
 Ball Inherited: F
+Hidden Power Type: GHOST
 PID: ff5a3c5f
+ESV: 3120
+Shiny: No
 Seed to hatch: 4c0206b9 270c2f80 c781731b 836341bc
 Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
 Sequence of actions to hatch:
@@ -110,7 +137,10 @@ Ability: 1
 Nature: DOCILE
 Gender: F
 Ball Inherited: F
+Hidden Power Type: GHOST
 PID: ff5a3c5f
+ESV: 3120
+Shiny: No
 Seed to hatch: 4e31228c e0b81769 270c2f80 c781731b
 Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
 Sequence of actions to hatch:
@@ -122,7 +152,10 @@ Ability: 1
 Nature: LAX
 Gender: M
 Ball Inherited: F
+Hidden Power Type: STEEL
 PID: ff5a3c5f
+ESV: 3120
+Shiny: No
 Seed to hatch: e9766fdc 59e0ac16 e0b81769 270c2f80
 Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
 Sequence of actions to hatch:
@@ -134,7 +167,10 @@ Ability: 2
 Nature: TIMID
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: 7d4e911b
+ESV: 3781
+Shiny: No
 Seed to hatch: 3f30e533 9d118e1e d690bdf8 e0b81769
 Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
 Sequence of actions to hatch:
@@ -146,7 +182,10 @@ Ability: 1
 Nature: CAREFUL
 Gender: M
 Ball Inherited: F
+Hidden Power Type: GROUND
 PID: ff5a3c5f
+ESV: 3120
+Shiny: No
 Seed to hatch: 5de3fa3b edb7e8e 12619ff0 d690bdf8
 Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
 Sequence of actions to hatch:
@@ -158,7 +197,10 @@ Ability: 2
 Nature: JOLLY
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: 7d4e911b
+ESV: 3781
+Shiny: No
 Seed to hatch: ad6ce2ac 6df4558a edb7e8e 12619ff0
 Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
 Sequence of actions to hatch:
@@ -170,7 +212,10 @@ Ability: 2
 Nature: SASSY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: GROUND
 PID: d17c277d
+ESV: 3936
+Shiny: No
 Seed to hatch: 68094ee6 b6e8451c 6df4558a edb7e8e
 Seed after hatching: 6c6e2505 365cdd71 a3cc8f04 10ea5741
 Sequence of actions to hatch:
@@ -182,7 +227,10 @@ Ability: 2
 Nature: GENTLE
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: 8ce6f747
+ESV: 1978
+Shiny: No
 Seed to hatch: 22445bbd 935fb937 399854f2 6df4558a
 Seed after hatching: 5a8664fb d5035add cefca3fb ba9832d
 Sequence of actions to hatch:
@@ -194,7 +242,10 @@ Ability: 1
 Nature: SERIOUS
 Gender: F
 Ball Inherited: F
+Hidden Power Type: GROUND
 PID: 7d4e911b
+ESV: 3781
+Shiny: No
 Seed to hatch: 7a32beb2 83ae00d1 935fb937 399854f2
 Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
 Sequence of actions to hatch:
@@ -206,7 +257,10 @@ Ability: 1
 Nature: BOLD
 Gender: M
 Ball Inherited: F
+Hidden Power Type: FLYING
 PID: 880f5c83
+ESV: 3400
+Shiny: No
 Seed to hatch: 3c91d6d7 c0999423 cde113f 935fb937
 Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
 Sequence of actions to hatch:
@@ -218,7 +272,10 @@ Ability: 1
 Nature: LONELY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: STEEL
 PID: e34bed77
+ESV: 227
+Shiny: No
 Seed to hatch: 43f179c1 58b7bf62 4fe985cd cde113f
 Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
 Sequence of actions to hatch:
@@ -230,7 +287,10 @@ Ability: 2
 Nature: BRAVE
 Gender: F
 Ball Inherited: F
+Hidden Power Type: FLYING
 PID: 880f5c83
+ESV: 3400
+Shiny: No
 Seed to hatch: 4e89b991 f61ec7af d7c7ae8c 4fe985cd
 Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
 Sequence of actions to hatch:
@@ -242,7 +302,10 @@ Ability: 2
 Nature: ADAMANT
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: e34bed77
+ESV: 227
+Shiny: No
 Seed to hatch: db9c506b 3f68662d 796ed641 d7c7ae8c
 Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
 Sequence of actions to hatch:
@@ -254,7 +317,10 @@ Ability: 2
 Nature: QUIRKY
 Gender: F
 Ball Inherited: F
+Hidden Power Type: GROUND
 PID: e34bed77
+ESV: 227
+Shiny: No
 Seed to hatch: 84115b7e 772edb20 3f68662d 796ed641
 Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
 Sequence of actions to hatch:
@@ -266,7 +332,10 @@ Ability: 2
 Nature: CAREFUL
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: e34bed77
+ESV: 227
+Shiny: No
 Seed to hatch: 95614b15 2a2c16cb f85ecace 3f68662d
 Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
 Sequence of actions to hatch:
@@ -278,7 +347,10 @@ Ability: 2
 Nature: IMPISH
 Gender: M
 Ball Inherited: F
+Hidden Power Type: GROUND
 PID: f950da1b
+ESV: 564
+Shiny: No
 Seed to hatch: e8fe20e7 33d4ad67 a55c0725 f85ecace
 Seed after hatching: ed0a442c a4512032 c1591379 23136d42
 Sequence of actions to hatch:
@@ -290,7 +362,10 @@ Ability: 2
 Nature: RASH
 Gender: M
 Ball Inherited: F
+Hidden Power Type: FLYING
 PID: f950da1b
+ESV: 564
+Shiny: No
 Seed to hatch: affb9100 dd3ea194 33d4ad67 a55c0725
 Seed after hatching: ed0a442c a4512032 c1591379 23136d42
 Sequence of actions to hatch:
@@ -302,7 +377,10 @@ Ability: 2
 Nature: GENTLE
 Gender: M
 Ball Inherited: F
+Hidden Power Type: FIGHTING
 PID: e34bed77
+ESV: 227
+Shiny: No
 Seed to hatch: a4dc45fa 2dcdf47a dd3ea194 33d4ad67
 Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
 Sequence of actions to hatch:
@@ -314,7 +392,10 @@ Ability: 2
 Nature: SASSY
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: cebdfa4e
+ESV: 847
+Shiny: No
 Seed to hatch: b3da6e9c 2cd2799b 2dcdf47a dd3ea194
 Seed after hatching: 3350ad2 ae6d84e3 bc459904 2b2131dc
 Sequence of actions to hatch:
@@ -326,7 +407,10 @@ Ability: 2
 Nature: GENTLE
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: dd308737
+ESV: 1440
+Shiny: No
 Seed to hatch: e542d4d 48aebf80 a3a26875 2dcdf47a
 Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
 Sequence of actions to hatch:
@@ -338,7 +422,10 @@ Ability: 2
 Nature: IMPISH
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: dd308737
+ESV: 1440
+Shiny: No
 Seed to hatch: 423d5f7a be3e8c91 48aebf80 a3a26875
 Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
 Sequence of actions to hatch:
@@ -350,7 +437,10 @@ Ability: 1
 Nature: NAIVE
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: dd308737
+ESV: 1440
+Shiny: No
 Seed to hatch: 1c751d6b 575bbeb3 314e9d7f 48aebf80
 Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
 Sequence of actions to hatch:
@@ -362,7 +452,10 @@ Ability: 2
 Nature: BRAVE
 Gender: M
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: dd308737
+ESV: 1440
+Shiny: No
 Seed to hatch: 6183370a 7f108cd4 575bbeb3 314e9d7f
 Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
 Sequence of actions to hatch:
@@ -374,7 +467,10 @@ Ability: 2
 Nature: QUIET
 Gender: F
 Ball Inherited: F
+Hidden Power Type: BUG
 PID: bdd946f
+ESV: 2555
+Shiny: No
 Seed to hatch: 7a4c5da7 e6009237 f0609d3a 575bbeb3
 Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
 Sequence of actions to hatch:
@@ -386,7 +482,10 @@ Ability: 2
 Nature: LAX
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: 7c76e043
+ESV: 2499
+Shiny: No
 Seed to hatch: 8426a1b6 59ca0ac2 e6009237 f0609d3a
 Seed after hatching: cf059ad 32246109 3ae5db01 f1bd2312
 Sequence of actions to hatch:
@@ -398,7 +497,10 @@ Ability: 2
 Nature: ADAMANT
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: bdd946f
+ESV: 2555
+Shiny: No
 Seed to hatch: 96cbff3c 7f02fe51 59ca0ac2 e6009237
 Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
 Sequence of actions to hatch:
@@ -410,7 +512,10 @@ Ability: 1
 Nature: LAX
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: bdd946f
+ESV: 2555
+Shiny: No
 Seed to hatch: 1cf6ab4e 1bf593ec 7f02fe51 59ca0ac2
 Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
 Sequence of actions to hatch:
@@ -422,7 +527,10 @@ Ability: 2
 Nature: LONELY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: 289a00ea
+ESV: 647
+Shiny: No
 Seed to hatch: 55ca5768 6e1a0981 1bf593ec 7f02fe51
 Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
 Sequence of actions to hatch:
@@ -434,7 +542,10 @@ Ability: 2
 Nature: IMPISH
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: bdd946f
+ESV: 2555
+Shiny: No
 Seed to hatch: 6018d098 7c75cc44 6e1a0981 1bf593ec
 Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
 Sequence of actions to hatch:
@@ -446,7 +557,10 @@ Ability: 2
 Nature: LONELY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: 289a00ea
+ESV: 647
+Shiny: No
 Seed to hatch: 4aba42af fdcb964 f305ddaa 6e1a0981
 Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
 Sequence of actions to hatch:
@@ -457,7 +571,10 @@ Ability: 1
 Nature: HARDY
 Gender: M
 Ball Inherited: F
+Hidden Power Type: PSYCHIC
 PID: 2d6cc235
+ESV: 3829
+Shiny: No
 Seed to hatch: d8a2d429 c06decce 80aca88a f305ddaa
 Seed after hatching: c00e9708 30f7f1e9 5e87dc45 7637fcc5
 Sequence of actions to hatch:
@@ -470,7 +587,10 @@ Ability: 1
 Nature: BASHFUL
 Gender: M
 Ball Inherited: F
+Hidden Power Type: WATER
 PID: e00bba5d
+ESV: 1445
+Shiny: No
 Seed to hatch: e0be140f 5065692d 4f1dfd20 80aca88a
 Seed after hatching: 65940dde e0cc5e9b 8222ad2a d20c50a4
 Sequence of actions to hatch:
