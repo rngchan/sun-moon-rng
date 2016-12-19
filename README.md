@@ -1,14 +1,14 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.5
+# Pokemon Sun/Moon Egg RNG Tool - v0.8
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
 ## What can I do with this?
 
-You can fully manipulate the game's RNG to get you any egg you want in as few steps as possible, without breeding millions of eggs until you get what you want. Ever wanted a pokemon with flawless IVs, the right ability/nature/gender combination, but don't want to bother hatching hundreds of eggs? This can help!
+You can fully manipulate the game's RNG to get you any egg you want in as few steps as possible, without breeding millions of eggs until you get what you want. Ever wanted a pokemon with flawless IVs, the right ability/nature/gender combination, or even a shiny, but don't want to bother hatching hundreds of eggs? This can help!
 
 By figuring out your current RNG seed in the game, it's possible to predict the outcome of any egg that you will ever hatch by carefully using this tool.
 
-##### "But this is cheating!'
+##### "But this is cheating!"
 
 It's not cheating if we are using nothing but the game itself to determine what will come out of eggs. No hacking of your system/game are required, all you need is your copy of the game. If you still think it's cheating, you can stop reading now, I guess.
 
@@ -92,13 +92,15 @@ The same as the previous section, except it determines the information for the f
 
 ### Child Traits Section
 
-In this section, you determine what traits you want the egg pokemon to have. Be it a specific range of IVs, a specific ability, or anything else you might want. Mind the specific format for IV range, since it MUST follow the `[x, y]` format, which means any IV greater than or equal to x OR lesser than or equal to y will be accepted. A value of "Anything" for other fields means any ability/nature/etc. is fine and should be considered a valid egg.
+In this section, you determine what traits you want the egg pokemon to have. Be it a specific range of IVs, a specific ability, or anything else you might want. Mind the specific format for IV range, since it MUST follow the `[x, y]` format, which means any IV greater than or equal to x OR lesser than or equal to y will be accepted. A value of "Anything" for other fields means any ability/nature/etc. is fine and should be considered a valid egg. You can specify here if you want the child to be shiny or not, too.
 
-**THERE IS CURRENTLY NO SUPPORT FOR FILTERING SHINY POKEMON OR HIDDEN POWER TYPE. I'M WORKING ON IT.**
+**THERE IS CURRENTLY NO SUPPORT FOR FILTERING HIDDEN POWER TYPE. I'M WORKING ON IT.**
 
 ### RNG Parameters Section
 
-In this section, you should detail your current seed value. The "current seed" you got in the `seed.txt` file should be put here, in the same order. First comes Status 3, then Status 2, all the way to Status 0. The TSV parameter currently does nothing, since it is related to shiny pokemon only.
+In this section, you should detail your current seed value. The "current seed" you got in the `seed.txt` file should be put here, in the same order. First comes Status 3, then Status 2, all the way to Status 0. The TSV parameter determines which pokemon will be shiny, and you need to pass in your own TSV for this tool to properly check for shininess.
+
+**_Side note:_** You can figure out your TSV either by knowing your Secret ID or by finding a shiny pokemon by yourself and checking its PID. You can then use [this site](http://tomatoland.org/dada/pkmn/sv/) to calculate either your TSV or your shiny pokemon's ESV (a pokemon is shiny when its ESV is equal to your TSV).
 
 ### Other Options Section
 
@@ -135,8 +137,6 @@ Nothing. This offers zero risk to your save file or anything else in the game, t
 The following features are still missing from this project, and I am working on them currently. If you would like to contribute, feel free to fork this repository and submit a pull request. If you want to contribute in other ways, like discussing features or issues, please use the issues tab on github.
 
 **Missing features that are being worked on:**
-* Shiny check on PID generation
-* TSV validation and comparison in PID generation
 * Hidden Power filtering
 
 **Missing features that might be worked on in the future:**
