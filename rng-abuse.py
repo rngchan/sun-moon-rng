@@ -25,10 +25,10 @@ def parseInput(inp):
 
 
 # Checks whether a PID is shiny based on TSV
-def check_shiny(tsv, pid):
+def get_esv(pid):
     pid_high = (pid >> 16)
     pid_low = (pid & 0xFFFF)
-    return ((pid_high ^ pid_low) >> 4) == tsv
+    return ((pid_high ^ pid_low) >> 4)
 
 
 # Read config file parameters
@@ -241,7 +241,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
 
     # Roll random PID
     pid = tinymt.nextStateAsPID()
-    shiny = check_shiny(tsv, pid)
+    esv = get_esv(pid)
+    shiny = (esv == tsv)
     rolls += 1
     rerolls = 0
     rerolls += 2 if charm else 0
@@ -250,7 +251,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
     for i in range(rerolls):
         pid = tinymt.nextStateAsPID()
         rolls += 1
-        shiny = check_shiny(tsv, pid)
+        esv = get_esv(pid)
+        shiny = (esv == tsv)
         if shiny:
             break
 
@@ -271,7 +273,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
     seeds = [seed_before, seed_after]
 
     # Build egg and return
-    return Egg(seeds, ivs, ability, nature, gender, pid, ball, rolls, shiny)
+    return Egg(seeds, ivs, ability, nature, gender, pid, ball, rolls, esv,
+               shiny)
 
 
 def main():

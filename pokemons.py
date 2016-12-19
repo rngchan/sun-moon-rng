@@ -18,12 +18,13 @@ class Parent(Pokemon):
 class Egg(Pokemon):
 
     def __init__(self, seeds, ivs, ability, nature, gender, pid, ball, rolls,
-                 shiny):
+                 esv, shiny):
         super(Egg, self).__init__(ivs, ability, nature, gender)
         self.ball = ball
         self.seeds = seeds
         self.pid = pid
         self.rolls = rolls
+        self.esv = esv
         self.shiny = shiny
 
     def __str__(self):
@@ -36,6 +37,7 @@ class Egg(Pokemon):
         result += "Gender: {}\n".format(self.gender)
         result += "Ball Inherited: {}\n".format(self.ball)
         result += "PID: {}\n".format(hex(self.pid)[2:])
+        result += "ESV: {}\n".format(self.esv)
         result += "Shiny: {}\n".format("Yes" if self.shiny else "No")
         result += "Seed to hatch: "
         for seed_step in self.seeds[0][::-1]:
