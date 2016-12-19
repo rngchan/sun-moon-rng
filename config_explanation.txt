@@ -39,7 +39,7 @@ ABILITY SLOT: Anything/1/2/HA [Anything = Don't Care]
 NATURE: Anything/Adamant/Modest/... [Anything = Don't Care]
 GENDER: Anything/M/F/Genderless [Anything = Don't Care]
 BALL: Anything/M/F [Anything = Don't Care]
-HIDDEN POWER TYPE: Anything/Normal/Fire/Water/... [Anything = Don't Care]
+HIDDEN POWER TYPE: Anything/Fire/Water/... [Anything = Don't Care]
 SHINY: Anything/Y/N [Anything = Don't Care]
 
 ======================

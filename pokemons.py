@@ -18,7 +18,7 @@ class Parent(Pokemon):
 class Egg(Pokemon):
 
     def __init__(self, seeds, ivs, ability, nature, gender, pid, ball, rolls,
-                 esv, shiny):
+                 esv, shiny, hpower):
         super(Egg, self).__init__(ivs, ability, nature, gender)
         self.ball = ball
         self.seeds = seeds
@@ -26,6 +26,7 @@ class Egg(Pokemon):
         self.rolls = rolls
         self.esv = esv
         self.shiny = shiny
+        self.hpower = hpower
 
     def __str__(self):
         result = "IV Spread: "
@@ -36,6 +37,7 @@ class Egg(Pokemon):
         result += "Nature: {}\n".format(self.nature)
         result += "Gender: {}\n".format(self.gender)
         result += "Ball Inherited: {}\n".format(self.ball)
+        result += "Hidden Power Type: {}\n".format(self.hpower)
         result += "PID: {}\n".format(hex(self.pid)[2:])
         result += "ESV: {}\n".format(self.esv)
         result += "Shiny: {}\n".format("Yes" if self.shiny else "No")
@@ -66,7 +68,7 @@ class Child(Pokemon):
             childIVRange = self.ivsRange[i]
             if eggIV < childIVRange[0] or eggIV > childIVRange[1]:
                 return False
-        # Check for ability, nature, gender ball, shiny
+        # Check for ability, nature, gender ball, hpower, shiny
         if self.ability is not None and egg.ability != self.ability:
             return False
         if self.nature is not None and egg.nature != self.nature:
@@ -75,7 +77,8 @@ class Child(Pokemon):
             return False
         if self.ball is not None and egg.ball != self.ball:
             return False
-        # Add check for hidden power sometime
+        if self.hpower is not None and egg.hpower != self.hpower:
+            return False
         if self.shiny is not None and egg.shiny != self.shiny:
             return False
         return True
