@@ -1,4 +1,4 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.9.2
+# Pokemon Sun/Moon Egg RNG Tool - v0.9.3
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
@@ -42,7 +42,11 @@ With that resolved, you'll need to download this repository's contents to your c
 
 ## Finding your seed
 
-To find current RNG seed, you're going to need a little bit of time and patience, since you'll have to hatch 127 eggs for that. Each egg you hatch will get you a value of 0 or 1, which you should note down in order. It's a simple process, but it can take a while:
+To find your current RNG seed, there is a short way that involves using PKHeX and another one that requires nothing but your game cart and lots of patience.
+
+If you have access to PKHeX, navigate to the tab that shows Nursery info, and on it there should be a seed field with a bunch of characters on it. This represents you current RNG seed, note it down and move on to the next step, configuring the RNG script.
+
+If you do not have access to PKHeX, you'll have to hatch 127 Magikarps. This is where the 2 Everstones will come into play, and every egg you hatch will give you a value of either 0 or 1, which you should carefully note down in order. Here's a step by step:
 
 1. Get two Magikaps that have different natures (one male, one female)
 2. Give them both an Everstone
@@ -66,6 +70,8 @@ After that, head over to [this](http://blog.livedoor.jp/x_x_saki_x_x/RNG/SMBreed
 This represents your RNG seed back when you started this whole Magikarp breeding process thing. But since you refused a total of 127 eggs to calculate your seed, and we are using the Everstone to calculate it, this means that your current seed is 124 states ahead of the one you found (rejecting 127 eggs advances your seed 127 times, and the Everstone is the 3rd RNG roll, so your current seed will be 3 behind that last one). Do not fret, this is where the first script in this project will aid you.
 
 In the same directory as the scripts, create a file named `seed.txt` and copy/paste the seed you got from the tool above in it, and then run the script `update_seed.py`. The script will update the file you wrote with your actual current seed.
+
+**_IMPORTANT:_** If you obtained your current seed through any method other than the one Magikarp one above, you should NOT use the `update_seed.py` script, as its purpose is to update the seed given by the Japanese tool linked. If you got your seed via PKHeX, the one you have is the one you should use, NOT the one given by this script.
 
 **_Side note:_** If you're unsure how to run a Python script, just double click a `.py` file if you're using Windows, or if you're using a UNIX system just open a terminal, navigate to where you saved the scripts, and type:
 
