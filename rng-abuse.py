@@ -330,10 +330,11 @@ def main():
             res.write(str(egg))
             # Build actions path and store it in file
             path = "Sequence of actions to hatch:\n"
+            path += "(This one might not work, still working the details)\n"
             f = a = r = 0
-            # while f+rolls[f] <= frame:
-            #     f += rolls[f]
-            #     a += 1
+            while f+rolls[f] <= frame:
+                f += rolls[f]
+                a += 1
             while f < frame:
                 f += 1
                 r += 1
@@ -352,6 +353,12 @@ def main():
                 else:
                     path += ">Reject {} eggs\n".format(r)
                 path += ">Accept egg\n"
+            path += "(This one will work for sure, but is longer)\n"
+            if frame == 1:
+                path += ">Reject egg\n"
+            elif frame:
+                path += ">Reject {} eggs\n".format(frame)
+            path += ">Accept egg\n"
             res.write(path+'\n')
 
 if __name__ == "__main__":
