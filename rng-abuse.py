@@ -331,9 +331,9 @@ def main():
             # Build actions path and store it in file
             path = "Sequence of actions to hatch:\n"
             f = a = r = 0
-            while f+rolls[f] <= frame:
-                f += rolls[f]
-                a += 1
+            # while f+rolls[f] <= frame:
+            #     f += rolls[f]
+            #     a += 1
             while f < frame:
                 f += 1
                 r += 1
