@@ -1,4 +1,4 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.9.5
+# Pokemon Sun/Moon Egg RNG Tool - v0.10.1
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
@@ -107,6 +107,8 @@ In this section, you determine what traits you want the egg pokemon to have. Be 
 In this section, you should detail your current seed value. The "current seed" you got in the `seed.txt` file should be put here, in the same order. First comes Status 3, then Status 2, all the way to Status 0. The TSV parameter determines which pokemon will be shiny, and you need to pass in your own TSV for this tool to properly check for shininess.
 
 **_Side note:_** You can figure out your TSV either by knowing your Secret ID or by finding a shiny pokemon by yourself and checking its PID. You can then use [this site](http://tomatoland.org/dada/pkmn/sv/) to calculate either your TSV or your shiny pokemon's ESV (a pokemon is shiny when its ESV is equal to your TSV).
+
+The ESV parameter lets you check your eggs for ESV values that can give you a shiny if traded. For example, if you get an egg with ESV 2002, but your TSV is 1000, and your friend has TSV 2002, you can give your egg to your friend and it will hatch shiny. So, by passing in a list of ESV values you want to search for, you can search for possible shinies to hatch in a different save file. If you want, you can pass in an empty list, too, like this: `ESV: []`
 
 ### Other Options Section
 
