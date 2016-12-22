@@ -52,7 +52,8 @@ STATUS 0: [Sequence of 8 hex digits]
 TSV: [Any number from 0 to 4096, Example: 1293]
 ESV: [Any list of values for ESV that are interesting. For example, if you
       have a friend with TSV 1000 and you get an egg with ESV 1000, your friend
-      can hatch your egg and it will be shiny. Example format: [10, 340, 2000]]
+      can hatch your egg and it will be shiny. Example format: [10, 340, 2000]
+      You can also leave it blank, like this: [] ]
 
 ======================
      OTHER OPTIONS    
