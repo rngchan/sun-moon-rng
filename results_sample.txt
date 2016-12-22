@@ -1,600 +1,199 @@
-IV Spread: (M, 31) / (F, 10) / (F, 25) / (M, 31) / (M, 31) / (R, 14)
-Ability: 1
-Nature: NAUGHTY
+IV Spread: (M, 31) / (R, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31)
+Ability: 2
+Nature: SERIOUS
 Gender: M
 Ball Inherited: F
-Hidden Power Type: PSYCHIC
-PID: 2abb4f32
-ESV: 1624
+Hidden Power Type: DARK
+PID: 3f0481d8
+ESV: 3053
 Shiny: No
-Seed to hatch: 8a80987 3cfe1de3 5740a11a 63b07a71
-Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
+Seed to hatch: 1346e582 7d2bfb87 b2a08b8 30e5ea07
+Seed after hatching: b04b91a5 e645499f b074c886 631ebc30
 Sequence of actions to hatch:
+(This one might not work, still working the details)
+>Accept 13 eggs
+>Reject 25 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 459 eggs
 >Accept egg
 
-IV Spread: (M, 31) / (M, 31) / (F, 25) / (M, 31) / (F, 10) / (R, 14)
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31)
+Ability: 2
+Nature: LONELY
+Gender: M
+Ball Inherited: F
+Hidden Power Type: DARK
+PID: 68984b08
+ESV: 569
+Shiny: No
+Seed to hatch: d15fca87 697b6d79 f627326c 6baffd9a
+Seed after hatching: df4b5649 3f2ab955 f873df15 873b463b
+Sequence of actions to hatch:
+(This one might not work, still working the details)
+>Accept 23 eggs
+>Reject 5 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 776 eggs
+>Accept egg
+
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31)
 Ability: 2
 Nature: IMPISH
 Gender: M
 Ball Inherited: F
-Hidden Power Type: BUG
-PID: 2abb4f32
-ESV: 1624
+Hidden Power Type: DARK
+PID: 68984b08
+ESV: 569
 Shiny: No
-Seed to hatch: 14ef46dc a5083b98 3cfe1de3 5740a11a
-Seed after hatching: 4aba42af fdcb964 f305ddaa 6e1a0981
+Seed to hatch: d035aae0 f008869f 724d4c8e e60b7c97
+Seed after hatching: df4b5649 3f2ab955 f873df15 873b463b
 Sequence of actions to hatch:
->Reject egg
->Accept egg
-
-IV Spread: (R, 6) / (F, 10) / (F, 25) / (F, 20) / (M, 31) / (M, 31)
-Ability: 2
-Nature: QUIRKY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: GRASS
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: 4d436c11 a21332bc 2a782a76 3cfe1de3
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
->Reject 2 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (F, 25) / (M, 31) / (R, 4) / (M, 31)
-Ability: 2
-Nature: MILD
-Gender: M
-Ball Inherited: F
-Hidden Power Type: STEEL
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: b65dd562 aaea877b a21332bc 2a782a76
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
->Reject 3 eggs
->Accept egg
-
-IV Spread: (R, 6) / (F, 10) / (M, 31) / (F, 20) / (M, 31) / (M, 31)
-Ability: 1
-Nature: JOLLY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: GRASS
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: 8af19f00 a1fea0d3 aaea877b a21332bc
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
->Reject 4 eggs
->Accept egg
-
-IV Spread: (F, 25) / (M, 31) / (F, 25) / (M, 31) / (R, 4) / (M, 31)
-Ability: 1
-Nature: NAIVE
-Gender: M
-Ball Inherited: F
-Hidden Power Type: STEEL
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: b4806fbc 7ab7cf3c a1fea0d3 aaea877b
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
->Reject 5 eggs
->Accept egg
-
-IV Spread: (R, 6) / (F, 10) / (M, 31) / (M, 31) / (M, 31) / (M, 31)
-Ability: 2
-Nature: BOLD
-Gender: F
-Ball Inherited: F
-Hidden Power Type: DRAGON
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: fc2461de 836341bc 7ab7cf3c a1fea0d3
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
->Reject 6 eggs
->Accept egg
-
-IV Spread: (F, 25) / (M, 31) / (M, 31) / (M, 31) / (R, 4) / (M, 31)
-Ability: 2
-Nature: LONELY
-Gender: F
-Ball Inherited: F
-Hidden Power Type: STEEL
-PID: 2b649fbf
-ESV: 2893
-Shiny: No
-Seed to hatch: ea4823c4 48f162f5 836341bc 7ab7cf3c
-Seed after hatching: b09d5b81 a96abe96 df1578c3 4f1dfd20
-Sequence of actions to hatch:
+(This one might not work, still working the details)
+>Accept 23 eggs
 >Reject 7 eggs
 >Accept egg
-
-IV Spread: (R, 14) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (M, 31)
-Ability: 2
-Nature: QUIRKY
-Gender: F
-Ball Inherited: F
-Hidden Power Type: GHOST
-PID: ff5a3c5f
-ESV: 3120
-Shiny: No
-Seed to hatch: 4c0206b9 270c2f80 c781731b 836341bc
-Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
-Sequence of actions to hatch:
->Reject 8 eggs
+(This one will work for sure, but is longer)
+>Reject 778 eggs
 >Accept egg
 
-IV Spread: (F, 25) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (R, 29)
-Ability: 1
-Nature: DOCILE
-Gender: F
-Ball Inherited: F
-Hidden Power Type: GHOST
-PID: ff5a3c5f
-ESV: 3120
-Shiny: No
-Seed to hatch: 4e31228c e0b81769 270c2f80 c781731b
-Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
-Sequence of actions to hatch:
->Reject 9 eggs
->Accept egg
-
-IV Spread: (R, 14) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (M, 31)
-Ability: 1
-Nature: LAX
-Gender: M
-Ball Inherited: F
-Hidden Power Type: STEEL
-PID: ff5a3c5f
-ESV: 3120
-Shiny: No
-Seed to hatch: e9766fdc 59e0ac16 e0b81769 270c2f80
-Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
-Sequence of actions to hatch:
->Reject 10 eggs
->Accept egg
-
-IV Spread: (M, 31) / (F, 10) / (M, 31) / (M, 31) / (F, 10) / (R, 18)
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31)
 Ability: 2
 Nature: TIMID
 Gender: F
 Ball Inherited: F
-Hidden Power Type: BUG
-PID: 7d4e911b
-ESV: 3781
+Hidden Power Type: DARK
+PID: 68984b08
+ESV: 569
 Shiny: No
-Seed to hatch: 3f30e533 9d118e1e d690bdf8 e0b81769
-Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
+Seed to hatch: 94fca41a de43b38a f008869f 724d4c8e
+Seed after hatching: df4b5649 3f2ab955 f873df15 873b463b
 Sequence of actions to hatch:
->Reject 11 eggs
+(This one might not work, still working the details)
+>Accept 23 eggs
+>Reject 8 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 779 eggs
 >Accept egg
 
-IV Spread: (R, 14) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
-Ability: 1
-Nature: CAREFUL
-Gender: M
-Ball Inherited: F
-Hidden Power Type: GROUND
-PID: ff5a3c5f
-ESV: 3120
-Shiny: No
-Seed to hatch: 5de3fa3b edb7e8e 12619ff0 d690bdf8
-Seed after hatching: 4f94726f 10ea5741 12392471 a96abe96
-Sequence of actions to hatch:
->Reject 12 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (R, 18)
-Ability: 2
-Nature: JOLLY
-Gender: F
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: 7d4e911b
-ESV: 3781
-Shiny: No
-Seed to hatch: ad6ce2ac 6df4558a edb7e8e 12619ff0
-Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
-Sequence of actions to hatch:
->Reject 13 eggs
->Accept egg
-
-IV Spread: (R, 4) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
-Ability: 2
-Nature: SASSY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: GROUND
-PID: d17c277d
-ESV: 3936
-Shiny: No
-Seed to hatch: 68094ee6 b6e8451c 6df4558a edb7e8e
-Seed after hatching: 6c6e2505 365cdd71 a3cc8f04 10ea5741
-Sequence of actions to hatch:
->Reject 14 eggs
->Accept egg
-
-IV Spread: (M, 31) / (R, 4) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31)
 Ability: 2
 Nature: GENTLE
-Gender: F
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: 8ce6f747
-ESV: 1978
-Shiny: No
-Seed to hatch: 22445bbd 935fb937 399854f2 6df4558a
-Seed after hatching: 5a8664fb d5035add cefca3fb ba9832d
-Sequence of actions to hatch:
->Reject 15 eggs
->Accept egg
-
-IV Spread: (M, 31) / (R, 29) / (M, 31) / (F, 20) / (F, 10) / (M, 31)
-Ability: 1
-Nature: SERIOUS
-Gender: F
-Ball Inherited: F
-Hidden Power Type: GROUND
-PID: 7d4e911b
-ESV: 3781
-Shiny: No
-Seed to hatch: 7a32beb2 83ae00d1 935fb937 399854f2
-Seed after hatching: 6122c4de 550d1868 2f159c43 b92ccc9f
-Sequence of actions to hatch:
->Reject 16 eggs
->Accept egg
-
-IV Spread: (M, 31) / (R, 21) / (M, 31) / (F, 20) / (F, 10) / (F, 10)
-Ability: 1
-Nature: BOLD
 Gender: M
 Ball Inherited: F
-Hidden Power Type: FLYING
-PID: 880f5c83
-ESV: 3400
+Hidden Power Type: DARK
+PID: 68984b08
+ESV: 569
 Shiny: No
-Seed to hatch: 3c91d6d7 c0999423 cde113f 935fb937
-Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
+Seed to hatch: 3a887cba c5f862ad de43b38a f008869f
+Seed after hatching: df4b5649 3f2ab955 f873df15 873b463b
 Sequence of actions to hatch:
->Reject 17 eggs
+(This one might not work, still working the details)
+>Accept 23 eggs
+>Reject 9 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 780 eggs
 >Accept egg
 
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (M, 31)
-Ability: 1
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31) / (M, 31)
+Ability: 2
 Nature: LONELY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: STEEL
-PID: e34bed77
-ESV: 227
-Shiny: No
-Seed to hatch: 43f179c1 58b7bf62 4fe985cd cde113f
-Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
-Sequence of actions to hatch:
->Reject 18 eggs
->Accept egg
-
-IV Spread: (M, 31) / (R, 21) / (F, 25) / (F, 20) / (F, 10) / (F, 10)
-Ability: 2
-Nature: BRAVE
 Gender: F
 Ball Inherited: F
-Hidden Power Type: FLYING
-PID: 880f5c83
-ESV: 3400
+Hidden Power Type: DARK
+PID: 4d315149
+ESV: 455
 Shiny: No
-Seed to hatch: 4e89b991 f61ec7af d7c7ae8c 4fe985cd
-Seed after hatching: ca03877d 33feb3ae a66a2fb0 33e01d02
+Seed to hatch: 556e1a5b 5d74aa81 b7353fd2 5787bd7c
+Seed after hatching: 788a1458 dc38cb8b 559e31df 535b8c40
 Sequence of actions to hatch:
->Reject 19 eggs
+(This one might not work, still working the details)
+>Accept 43 eggs
+>Reject 2 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 1446 eggs
 >Accept egg
 
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (F, 10)
-Ability: 2
-Nature: ADAMANT
+IV Spread: (M, 31) / (R, 31) / (M, 31) / (M, 31) / (M, 31) / (M, 31)
+Ability: 1
+Nature: MODEST
 Gender: M
 Ball Inherited: F
-Hidden Power Type: BUG
-PID: e34bed77
-ESV: 227
+Hidden Power Type: DARK
+PID: 65e3d257
+ESV: 2939
 Shiny: No
-Seed to hatch: db9c506b 3f68662d 796ed641 d7c7ae8c
-Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Seed to hatch: 6d20ae41 abd530c3 77bde3d6 e1cdd12
+Seed after hatching: 8092b77e 8d7e0830 ed80f6cf 1216a8ca
 Sequence of actions to hatch:
->Reject 20 eggs
+(This one might not work, still working the details)
+>Accept 212 eggs
+>Reject 30 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 7182 eggs
 >Accept egg
 
-IV Spread: (M, 31) / (M, 31) / (F, 25) / (F, 20) / (F, 10) / (R, 27)
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31) / (M, 31)
 Ability: 2
-Nature: QUIRKY
+Nature: RASH
 Gender: F
 Ball Inherited: F
-Hidden Power Type: GROUND
-PID: e34bed77
-ESV: 227
+Hidden Power Type: DARK
+PID: 751c9068
+ESV: 3671
 Shiny: No
-Seed to hatch: 84115b7e 772edb20 3f68662d 796ed641
-Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
+Seed to hatch: 4a2c2ddf 4669b328 9b8777a9 d8bb74b1
+Seed after hatching: d3c66f9b c59480f6 fd3610d0 651cb8a4
 Sequence of actions to hatch:
->Reject 21 eggs
+(This one might not work, still working the details)
+>Accept 264 eggs
+>Reject 2 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 8904 eggs
 >Accept egg
 
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 29) / (F, 10) / (F, 10)
-Ability: 2
-Nature: CAREFUL
-Gender: M
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: e34bed77
-ESV: 227
-Shiny: No
-Seed to hatch: 95614b15 2a2c16cb f85ecace 3f68662d
-Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
-Sequence of actions to hatch:
->Reject 22 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (F, 20) / (F, 10) / (R, 27)
-Ability: 2
-Nature: IMPISH
-Gender: M
-Ball Inherited: F
-Hidden Power Type: GROUND
-PID: f950da1b
-ESV: 564
-Shiny: No
-Seed to hatch: e8fe20e7 33d4ad67 a55c0725 f85ecace
-Seed after hatching: ed0a442c a4512032 c1591379 23136d42
-Sequence of actions to hatch:
->Reject 23 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 2) / (F, 10) / (F, 10)
-Ability: 2
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31) / (M, 31)
+Ability: 1
 Nature: RASH
 Gender: M
 Ball Inherited: F
-Hidden Power Type: FLYING
-PID: f950da1b
-ESV: 564
+Hidden Power Type: DARK
+PID: 751c9068
+ESV: 3671
 Shiny: No
-Seed to hatch: affb9100 dd3ea194 33d4ad67 a55c0725
-Seed after hatching: ed0a442c a4512032 c1591379 23136d42
+Seed to hatch: d26023a3 3e30ce6c 132341be 4669b328
+Seed after hatching: d3c66f9b c59480f6 fd3610d0 651cb8a4
 Sequence of actions to hatch:
->Reject 24 eggs
+(This one might not work, still working the details)
+>Accept 264 eggs
+>Reject 4 eggs
+>Accept egg
+(This one will work for sure, but is longer)
+>Reject 8906 eggs
 >Accept egg
 
-IV Spread: (F, 25) / (M, 31) / (R, 6) / (F, 20) / (F, 10) / (F, 10)
-Ability: 2
-Nature: GENTLE
-Gender: M
-Ball Inherited: F
-Hidden Power Type: FIGHTING
-PID: e34bed77
-ESV: 227
-Shiny: No
-Seed to hatch: a4dc45fa 2dcdf47a dd3ea194 33d4ad67
-Seed after hatching: 40729814 c1591379 23136d42 e68af1d5
-Sequence of actions to hatch:
->Reject 25 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (M, 31) / (R, 27) / (F, 10) / (F, 10)
-Ability: 2
-Nature: SASSY
-Gender: F
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: cebdfa4e
-ESV: 847
-Shiny: No
-Seed to hatch: b3da6e9c 2cd2799b 2dcdf47a dd3ea194
-Seed after hatching: 3350ad2 ae6d84e3 bc459904 2b2131dc
-Sequence of actions to hatch:
->Reject 26 eggs
->Accept egg
-
-IV Spread: (F, 25) / (M, 31) / (R, 9) / (M, 31) / (F, 10) / (F, 10)
-Ability: 2
-Nature: GENTLE
-Gender: M
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: dd308737
-ESV: 1440
-Shiny: No
-Seed to hatch: e542d4d 48aebf80 a3a26875 2dcdf47a
-Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
-Sequence of actions to hatch:
->Reject 27 eggs
->Accept egg
-
-IV Spread: (R, 22) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
-Ability: 2
-Nature: IMPISH
-Gender: F
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: dd308737
-ESV: 1440
-Shiny: No
-Seed to hatch: 423d5f7a be3e8c91 48aebf80 a3a26875
-Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
-Sequence of actions to hatch:
->Reject 28 eggs
->Accept egg
-
-IV Spread: (F, 25) / (M, 31) / (R, 9) / (M, 31) / (F, 10) / (F, 10)
+IV Spread: (M, 31) / (M, 31) / (M, 31) / (M, 31) / (R, 31) / (M, 31)
 Ability: 1
-Nature: NAIVE
+Nature: RASH
 Gender: M
 Ball Inherited: F
-Hidden Power Type: BUG
-PID: dd308737
-ESV: 1440
+Hidden Power Type: DARK
+PID: 751c9068
+ESV: 3671
 Shiny: No
-Seed to hatch: 1c751d6b 575bbeb3 314e9d7f 48aebf80
-Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
+Seed to hatch: 3e7103a6 ffced764 c453b50e 3e30ce6c
+Seed after hatching: d3c66f9b c59480f6 fd3610d0 651cb8a4
 Sequence of actions to hatch:
->Reject 29 eggs
+(This one might not work, still working the details)
+>Accept 264 eggs
+>Reject 6 eggs
 >Accept egg
-
-IV Spread: (R, 22) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
-Ability: 2
-Nature: BRAVE
-Gender: M
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: dd308737
-ESV: 1440
-Shiny: No
-Seed to hatch: 6183370a 7f108cd4 575bbeb3 314e9d7f
-Seed after hatching: 28c5d2d b595caef f1bd2312 413ef00f
-Sequence of actions to hatch:
->Reject 30 eggs
+(This one will work for sure, but is longer)
+>Reject 8908 eggs
 >Accept egg
-
-IV Spread: (R, 23) / (M, 31) / (M, 31) / (M, 31) / (F, 10) / (F, 10)
-Ability: 2
-Nature: QUIET
-Gender: F
-Ball Inherited: F
-Hidden Power Type: BUG
-PID: bdd946f
-ESV: 2555
-Shiny: No
-Seed to hatch: 7a4c5da7 e6009237 f0609d3a 575bbeb3
-Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
-Sequence of actions to hatch:
->Reject 31 eggs
->Accept egg
-
-IV Spread: (R, 7) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
-Ability: 2
-Nature: LAX
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: 7c76e043
-ESV: 2499
-Shiny: No
-Seed to hatch: 8426a1b6 59ca0ac2 e6009237 f0609d3a
-Seed after hatching: cf059ad 32246109 3ae5db01 f1bd2312
-Sequence of actions to hatch:
->Reject 32 eggs
->Accept egg
-
-IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
-Ability: 2
-Nature: ADAMANT
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: bdd946f
-ESV: 2555
-Shiny: No
-Seed to hatch: 96cbff3c 7f02fe51 59ca0ac2 e6009237
-Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
-Sequence of actions to hatch:
->Reject 33 eggs
->Accept egg
-
-IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
-Ability: 1
-Nature: LAX
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: bdd946f
-ESV: 2555
-Shiny: No
-Seed to hatch: 1cf6ab4e 1bf593ec 7f02fe51 59ca0ac2
-Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
-Sequence of actions to hatch:
->Reject 34 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (R, 27) / (F, 20) / (M, 31) / (F, 10)
-Ability: 2
-Nature: LONELY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: 289a00ea
-ESV: 647
-Shiny: No
-Seed to hatch: 55ca5768 6e1a0981 1bf593ec 7f02fe51
-Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
-Sequence of actions to hatch:
->Reject 35 eggs
->Accept egg
-
-IV Spread: (R, 23) / (M, 31) / (M, 31) / (F, 20) / (M, 31) / (F, 10)
-Ability: 2
-Nature: IMPISH
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: bdd946f
-ESV: 2555
-Shiny: No
-Seed to hatch: 6018d098 7c75cc44 6e1a0981 1bf593ec
-Seed after hatching: 256797ed f947ed2b aed69027 3e9f603a
-Sequence of actions to hatch:
->Reject 36 eggs
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (R, 27) / (F, 20) / (M, 31) / (F, 10)
-Ability: 2
-Nature: LONELY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: 289a00ea
-ESV: 647
-Shiny: No
-Seed to hatch: 4aba42af fdcb964 f305ddaa 6e1a0981
-Seed after hatching: d405de91 21a681c9 3e9f603a e9e67c1f
-Sequence of actions to hatch:
->Accept 2 eggs
-
-IV Spread: (R, 28) / (M, 31) / (M, 31) / (M, 31) / (M, 31) / (F, 10)
-Ability: 1
-Nature: HARDY
-Gender: M
-Ball Inherited: F
-Hidden Power Type: PSYCHIC
-PID: 2d6cc235
-ESV: 3829
-Shiny: No
-Seed to hatch: d8a2d429 c06decce 80aca88a f305ddaa
-Seed after hatching: c00e9708 30f7f1e9 5e87dc45 7637fcc5
-Sequence of actions to hatch:
->Accept egg
->Reject egg
->Accept egg
-
-IV Spread: (M, 31) / (M, 31) / (R, 23) / (F, 20) / (M, 31) / (F, 10)
-Ability: 1
-Nature: BASHFUL
-Gender: M
-Ball Inherited: F
-Hidden Power Type: WATER
-PID: e00bba5d
-ESV: 1445
-Shiny: No
-Seed to hatch: e0be140f 5065692d 4f1dfd20 80aca88a
-Seed after hatching: 65940dde e0cc5e9b 8222ad2a d20c50a4
-Sequence of actions to hatch:
->Accept egg
->Reject 2 eggs
->Accept egg
-
