@@ -18,7 +18,8 @@ class TinyMT(object):
         # Return current state as a single hex string
         res = "0x"
         for s in self.state[::-1]:
-            res += hex(s)[2:]
+            status = hex(s)[2:]
+            res += "0"*(8 - len(status)) + status
         return res
 
     def nextState(self):
