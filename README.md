@@ -108,6 +108,8 @@ In this section, you should detail your current seed value. The "current seed" y
 
 **_Side note:_** You can figure out your TSV either by knowing your Secret ID or by finding a shiny pokemon by yourself and checking its PID. You can then use [this site](http://tomatoland.org/dada/pkmn/sv/) to calculate either your TSV or your shiny pokemon's ESV (a pokemon is shiny when its ESV is equal to your TSV).
 
+The ESV parameter lets you check your eggs for ESV values that can give you a shiny if traded. For example, if you get an egg with ESV 2002, but your TSV is 1000, and your friend has TSV 2002, you can give your egg to your friend and it will hatch shiny. So, by passing in a list of ESV values you want to search for, you can search for possible shinies to hatch in a different save file. If you want, you can pass in an empty list, too, like this: `ESV: []`
+
 ### Other Options Section
 
 In this section, you can configure the remaining parameters for the script. You can specify whether you are or aren't using the Masuda Method, if you have the Shiny Charm, if you're breeding same species pokemon, and the gender ratio for the species you're breeding. Note the gender ratio format in the config explanation.
