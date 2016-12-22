@@ -158,8 +158,22 @@ def readConfigFile():
         if tsv < 0 or tsv > 4096:
             return None, "TSV must be between 0 and 4096"
         params["tsv"] = tsv
+        # Read ESV parameter as a list of ESV values
+        try:
+            esvs = l_eval(parseInput(config[skip+5].split(':')[1]))
+        except Exception:
+            return None, "Invalid ESV, are you usuing the right format?"
+        params["esvs"] = []
+        for esv in esvs:
+            try:
+                esv = int(esv)
+            except ValueError:
+                return None, "Invalid ESV value, not an integer"
+            if esv < 0 or esv > 4096:
+                return None, "Invalid ESV value, must e between 0 and 4096"
+            params["esvs"].append(esv)
 
-        skip = 56
+        skip = 57
         # Read gender ratio info
         ratio = parseInput(config[skip].split(':')[1]).upper()
         if ratio not in ratios:
@@ -189,7 +203,8 @@ def readConfigFile():
         return params, None
 
 
-def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
+def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv,
+            esvs):
     seed_before = tinymt.getState()
     rolls = 0  # Keep track of rolls number
 
@@ -259,7 +274,7 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
     # Roll random PID
     pid = tinymt.nextStateAsPID()
     esv = get_esv(pid)
-    shiny = (esv == tsv)
+    shiny = "Y" if esv == tsv else "P" if esv in esvs else "N"
     rolls += 1
     rerolls = 0
     rerolls += 2 if charm else 0
@@ -269,8 +284,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
         pid = tinymt.nextStateAsPID()
         rolls += 1
         esv = get_esv(pid)
-        shiny = (esv == tsv)
-        if shiny:
+        shiny = "Yes" if esv == tsv else "P" if esv in esvs else "No"
+        if shiny == "Yes":
             break
 
     # Roll for ball check if necessary
@@ -320,7 +335,8 @@ def main():
     while not results or len(results) < params["nresults"] and tries < 10000:
         tmtState = tmt.getState()
         egg = makeEgg(tmt, parentA, parentB, params["ratio"], params["charm"],
-                      params["masuda"], params["ballcheck"], params["tsv"])
+                      params["masuda"], params["ballcheck"], params["tsv"],
+                      params["esvs"])
         rolls.append(egg.rolls)
         if params["child"].matches(egg):
             results.append((tries, egg))

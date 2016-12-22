@@ -40,7 +40,8 @@ class Egg(Pokemon):
         result += "Hidden Power Type: {}\n".format(self.hpower)
         result += "PID: {}\n".format(hex(self.pid)[2:])
         result += "ESV: {}\n".format(self.esv)
-        result += "Shiny: {}\n".format("Yes" if self.shiny else "No")
+        result += "Shiny: {}\n".format("Yes if traded" if self.shiny == "P"
+                                       else self.shiny)
         result += "Seed to hatch: "
         for seed_step in self.seeds[0][::-1]:
             result += "{} ".format(hex(seed_step)[2:])
@@ -80,5 +81,6 @@ class Child(Pokemon):
         if self.hpower is not None and egg.hpower != self.hpower:
             return False
         if self.shiny is not None and egg.shiny != self.shiny:
-            return False
+            if egg.shiny != "P":
+                return False
         return True
