@@ -80,7 +80,8 @@ class Child(Pokemon):
             return False
         if self.hpower is not None and egg.hpower != self.hpower:
             return False
-        if self.shiny is not None and egg.shiny != self.shiny:
-            if egg.shiny != "P":
-                return False
+        if self.shiny and egg.shiny not in ["Yes", "P"]:
+            return False
+        elif self.shiny is not None and egg.shiny != "No":
+            return False
         return True
