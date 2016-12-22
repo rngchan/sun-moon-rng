@@ -1,4 +1,4 @@
-# Pokemon Sun/Moon Egg RNG Tool - v0.9.5
+# Pokemon Sun/Moon Egg RNG Tool - v0.10.1
 
 This is a Python script tool to assist with egg RNG manipulating in Pokemon Sun and Pokemon Moon for the Nintendo 3DS. Please read the license if you want to distribute this software or work on it yourself.
 
