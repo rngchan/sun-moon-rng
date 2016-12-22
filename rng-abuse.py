@@ -296,9 +296,14 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv):
 
 def main():
     # Read parameters, check for errors
-    params, msg = readConfigFile()
+    try:
+        params, msg = readConfigFile()
+    except Exception:
+        msg = "Unknown error occured. Are you using the right format?"
     if msg is not None:
-        print("ERROR: {}".format(msg))
+        with open("results.txt", 'w') as res:
+            res.write("There was an error processing your config file:\n")
+            res.write("ERROR: {}\n".format(msg))
         return
 
     results = []
@@ -312,7 +317,7 @@ def main():
         parentA, parentB = parentB, parentA
 
     # Repeat until enough results are found, timeout at 10000
-    while len(results) < params["nresults"] and tries < 10000:
+    while not results or len(results) < params["nresults"] and tries < 10000:
         tmtState = tmt.getState()
         egg = makeEgg(tmt, parentA, parentB, params["ratio"], params["charm"],
                       params["masuda"], params["ballcheck"], params["tsv"])
