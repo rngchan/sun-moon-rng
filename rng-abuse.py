@@ -291,6 +291,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv,
     # Roll for ball check if necessary
     if parentB.ditto:
         ball = parentA.gender[0]
+    elif parentA.ditto:
+        ball = parentB.gender[0]
     elif not ballcheck:
         ball = "F"
     else:
@@ -327,9 +329,6 @@ def main():
     tmt = TinyMT(params["seed"])
     parentA = params["parents"]["Male"]
     parentB = params["parents"]["Female"]
-    # Make sure ditto is always parent B
-    if parentA.ditto:
-        parentA, parentB = parentB, parentA
 
     # Repeat until enough results are found, timeout at 10000
     while not results or len(results) < params["nresults"] and tries < 10000:
