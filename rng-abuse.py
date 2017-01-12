@@ -296,7 +296,7 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv,
     elif not ballcheck:
         ball = "F"
     else:
-        ball = "M" if tinymt.nextStateAsInt(2) <= 50 else "F"
+        ball = "M" if tinymt.nextStateAsInt(100) < 50 else "F"
         rolls += 1
 
     # Extra mythical rolls that do random shit unrelated to eggs
