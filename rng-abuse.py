@@ -273,8 +273,8 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv,
 
     # Roll random PID
     pid = tinymt.nextStateAsPID()
-    esv = get_esv(pid)
-    shiny = "Y" if esv == tsv else "P" if esv in esvs else "N"
+    esv = "No way to know - please use either Masuda method or Shiny Charm"
+    shiny = "No way to know - please use either Masuda method or Shiny Charm"
     rolls += 1
     rerolls = 0
     rerolls += 2 if charm else 0
