@@ -342,6 +342,10 @@ def main():
         tmt.setState(tmtState)
         tmt.nextState()
         tries += 1
+        if not tries % 20000:
+            print "WARNING: Script is taking too long to finish."
+            print "         {} seeds were already searched.".format(tries)
+            print "         Press CTRL+C to terminate the script.\n"
 
     print("Found {} results, writing them to results.txt".format(len(results)))
     with open("results.txt", 'w') as res:
