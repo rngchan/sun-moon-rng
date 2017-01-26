@@ -289,14 +289,15 @@ def makeEgg(tinymt, parentA, parentB, ratio, charm, masuda, ballcheck, tsv,
             break
 
     # Roll for ball check if necessary
+    genderA, genderB = parentA.gender[0], parentB.gender[0]
     if parentB.ditto:
-        ball = parentA.gender[0]
+        ball = genderA
     elif parentA.ditto:
-        ball = parentB.gender[0]
+        ball = genderB
     elif not ballcheck:
         ball = "F"
     else:
-        ball = "M" if tinymt.nextStateAsInt(100) < 50 else "F"
+        ball = genderB if tinymt.nextStateAsInt(100)+1 <= 50 else genderA
         rolls += 1
 
     # Extra mythical rolls that do random shit unrelated to eggs
